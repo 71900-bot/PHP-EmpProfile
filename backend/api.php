@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 <?php
 header("Access-Control-Allow-Origin: *");
 header("Access-Control-Allow-Methods: GET, POST, OPTIONS");
@@ -563,8 +560,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 }
 
 # ─── Fallback ───────────────────────────────────────────────────────────────
-<<<<<<< HEAD
-=======
->>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
->>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
 respond(['success' => false, 'message' => 'Method not allowed.'], 405);
