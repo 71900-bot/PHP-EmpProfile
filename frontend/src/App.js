@@ -1,9 +1,16 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './App.css';
+<<<<<<< HEAD
 import myLogo from './images/MyWave.png'; 
 
 // ── Config ──────────────────────────────────────────────────────────────────
 const API_URL = 'http://localhost/PHP-EmpProfile/backend/api.php'; // PHP path
+=======
+import myLogo from './images/PeopleHub.png'; 
+
+// ── Config ──────────────────────────────────────────────────────────────────
+const API_URL = '/backend/api.php'; // PHP path
+>>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
 
 const DEPARTMENTS = [
   'Engineering','Marketing','Sales','Human Resources',
@@ -831,7 +838,11 @@ export default function App() {
     <footer className="official-footer">
       <div className="footer-content">
         <div className="footer-section">
+<<<<<<< HEAD
           <h4>MyWave Nexus</h4>
+=======
+          <h4>PeopleHub</h4>
+>>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
           <p>Advanced Human Resource Management System</p>
         </div>
         
@@ -842,7 +853,11 @@ export default function App() {
         </div>
         
         <div className="footer-copyright">
+<<<<<<< HEAD
           © {new Date().getFullYear()} MyWave Nexus | Enterprise Human Resources
+=======
+          © {new Date().getFullYear()} PeopleHub | Enterprise Human Resources
+>>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
           <span className="version-tag">v1.0.0-stable</span>
         </div>
       </div>
@@ -858,12 +873,20 @@ export default function App() {
             <div className="logo-icon">
               <img 
                 src={myLogo} 
+<<<<<<< HEAD
                 alt="MyWave Logo" 
+=======
+                alt="PeopleHub Logo" 
+>>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
                 style={{ width: 'auto', height: '100%', objectFit: 'contain' }}
               />
             </div>
             <div className="brand-group">
+<<<<<<< HEAD
               <span className="brand-name">MyWave Nexus</span>
+=======
+              <span className="brand-name">PeopleHub</span>
+>>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
               <span className="system-status">
                 <span className="status-dot"></span> System Online
               </span>

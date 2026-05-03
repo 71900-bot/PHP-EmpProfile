@@ -688,6 +688,129 @@ font-family: var(--font-disp);
 }
 
 /* ── Responsive ────────────────────────────────────────────────────── */
+<<<<<<< HEAD
+=======
+
+/* Touch-friendly interactions for mobile devices */
+@media (hover: none) and (pointer: coarse) {
+  .btn { min-height: 44px; }
+  .nav-btn { min-height: 44px; padding: 10px 12px; }
+  .emp-card { cursor: default; }
+  .emp-card:hover { transform: none; box-shadow: var(--shadow); }
+}
+
+/* Mobile First - Base styles are mobile optimized */
+
+/* Small devices (phones, 640px and up) */
+@media (max-width: 640px) {
+  .container { padding: 20px 16px; }
+  .nav-inner { padding: 0 16px; height: 70px; flex-wrap: wrap; }
+  .nav-logo { font-size: 1.3rem; }
+  .logo-icon { height: 45px; }
+  .brand-name { font-size: 1.2rem; }
+  .system-status { font-size: 0.6rem; }
+  .nav-links { gap: 2px; }
+  .nav-btn { padding: 8px 10px; font-size: 0.8rem; min-height: 44px; }
+  .nav-btn span { display: none; }
+  
+  .page-head { flex-direction: column; align-items: flex-start; gap: 12px; margin-bottom: 24px; }
+  .page-head h1 { font-size: 1.5rem; }
+  
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; margin-bottom: 24px; }
+  .stat-card { padding: 16px 20px; }
+  .stat-value { font-size: 1.5rem; }
+  .stat-icon { width: 36px; height: 36px; font-size: 1.2rem; }
+  
+  .employee-grid { grid-template-columns: 1fr; gap: 12px; }
+  .emp-card-body { padding: 16px; }
+  .emp-card-header { gap: 12px; }
+  .emp-avatar { width: 48px; height: 48px; }
+  .emp-name { font-size: 0.95rem; }
+  .emp-position { font-size: 0.75rem; }
+  .emp-id { font-size: 0.7rem; }
+  .dept-badge { font-size: 0.7rem; padding: 2px 8px; }
+  .emp-info { grid-template-columns: 1fr; gap: 6px; }
+  .emp-info-row { font-size: 0.75rem; }
+  
+  .form-wrapper { margin: 0; }
+  .form-section { margin-bottom: 16px; }
+  .section-header { padding: 16px 20px; }
+  .section-body { padding: 20px; }
+  .form-grid { grid-template-columns: 1fr; gap: 16px; }
+  .form-actions { flex-direction: column; gap: 8px; }
+  .form-actions .btn { width: 100%; min-height: 48px; }
+  
+  .details-header { padding: 24px 20px; flex-direction: column; gap: 16px; text-align: center; }
+  .details-profile-wrap { flex-direction: column; gap: 16px; }
+  .details-avatar { width: 80px; height: 80px; font-size: 2rem; }
+  .details-title-group h1 { font-size: 1.6rem; justify-content: center; }
+  .details-subtitle { font-size: 1rem; }
+  .details-salary-box { padding: 10px 20px; text-align: center; }
+  .details-salary-box .value { font-size: 1.4rem; }
+  
+  .details-grid { grid-template-columns: 1fr; gap: 24px; padding: 24px 20px; }
+  .employee-details-grid { grid-template-columns: 1fr; gap: 24px; margin-top: 20px; }
+  
+  .info-item { flex-direction: column; gap: 4px; }
+  .info-item span { width: auto; font-weight: 600; }
+  
+  .filter-bar { flex-direction: column; gap: 12px; }
+  .search-wrap { min-width: auto; }
+  .filter-bar select { width: 100%; min-height: 44px; }
+  .search-wrap input { min-height: 44px; }
+  
+  .modal-small { width: 90vw; height: 90vw; max-width: 300px; max-height: 300px; }
+  .close-btn { width: 32px; height: 32px; font-size: 16px; }
+  
+  .toast { left: 16px; right: 16px; bottom: 16px; }
+  
+  .official-footer { padding: 24px 0 16px 0; margin-top: 40px; }
+  .footer-content { padding: 0 16px; }
+  .footer-links { flex-direction: column; gap: 12px; text-align: center; }
+  .footer-copyright { flex-direction: column; gap: 8px; }
+  
+  .empty-state { padding: 40px 20px; }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 641px) and (max-width: 768px) {
+  .container { padding: 30px 20px; }
+  .nav-inner { padding: 0 20px; }
+  
+  .stats-grid { grid-template-columns: repeat(2, 1fr); gap: 14px; }
+  
+  .employee-grid { grid-template-columns: repeat(2, 1fr); }
+  
+  .details-grid { grid-template-columns: repeat(2, 1fr); }
+  .employee-details-grid { grid-template-columns: repeat(2, 1fr); }
+  
+  .form-grid { grid-template-columns: 1fr 1fr; }
+}
+
+/* Large devices (desktops, 1024px and up) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container { padding: 35px 22px; }
+  
+  .stats-grid { grid-template-columns: repeat(3, 1fr); }
+  
+  .employee-grid { grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); }
+  
+  .details-grid { grid-template-columns: repeat(3, 1fr); }
+  .employee-details-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* Extra large devices (large desktops, 1025px and up) */
+@media (min-width: 1025px) {
+  .container { padding: 40px 24px; }
+  
+  .stats-grid { grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  
+  .employee-grid { grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); }
+  
+  .details-grid { grid-template-columns: repeat(4, 1fr); }
+  .employee-details-grid { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); }
+}
+>>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
 @media (max-width: 640px) {
   .form-grid { grid-template-columns: 1fr; }
   .form-group.full { grid-column: 1; }
