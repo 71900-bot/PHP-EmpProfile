@@ -1,5 +1,29 @@
 [
     {
+<<<<<<< HEAD
+=======
+        "employee_name": "Viola Voon Li Wei",
+        "gender": "Female",
+        "marital_status": "Single",
+        "phone_no": "+60109866131",
+        "email": "Violin000000@gmail.com",
+        "address": "Lot 876, Taman Janting, KM12 Jalan Batu Kawa, 93250 Kuching, Sarawak",
+        "date_of_birth": "1999-12-17",
+        "nationality": "Malaysian",
+        "hire_date": "2026-04-23",
+        "department": "Engineering",
+        "position": "Software Engineer",
+        "employee_id_code": "EMP-E3CD04",
+        "salary": "5000",
+        "emergency_name": "Voon Jan Ting",
+        "emergency_phone": "+60198895246",
+        "emergency_relation": "Father",
+        "id": "emp_69eae14e3cd8a7.98062402",
+        "created_at": "2026-04-24 05:19:42",
+        "profile_photo": "http:\/\/localhost\/PHP-EmpProfile\/backend\/uploads\/photo_69eae12968bcb.jpeg"
+    },
+    {
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
         "employee_name": "John Doe",
         "gender": "Male",
         "marital_status": "Married",
@@ -13,7 +37,11 @@
         "position": "Software Engineer",
         "employee_id_code": "EMP-A3760C",
         "salary": "5000",
+<<<<<<< HEAD
         "profile_photo": "backend\/uploads\/photo_69ee24ddc8cee.jpeg",
+=======
+        "profile_photo": "http:\/\/localhost\/PHP-EmpProfile\/backend\/uploads\/photo_69ee24ddc8cee.jpeg",
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
         "emergency_name": "Kelvin Doe",
         "emergency_phone": "+123345546565",
         "emergency_relation": "Father",
@@ -34,7 +62,11 @@
         "position": "Software Developer",
         "employee_id_code": "EMP-FD89CF",
         "salary": "4000",
+<<<<<<< HEAD
         "profile_photo": "backend\/uploads\/photo_69ee257a79e08.jpg",
+=======
+        "profile_photo": "http:\/\/localhost\/PHP-EmpProfile\/backend\/uploads\/photo_69ee257a79e08.jpg",
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
         "emergency_name": "William Koh",
         "emergency_phone": "+6012342234343",
         "emergency_relation": "Spouse",
@@ -55,7 +87,11 @@
         "position": "Software Engineer",
         "employee_id_code": "EMP-BA5832",
         "salary": "4000",
+<<<<<<< HEAD
         "profile_photo": "backend\/uploads\/photo_69ee263e78f9f.gif",
+=======
+        "profile_photo": "http:\/\/localhost\/PHP-EmpProfile\/backend\/uploads\/photo_69ee263e78f9f.gif",
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
         "emergency_name": "Jason Lim",
         "emergency_phone": "+601687382372",
         "emergency_relation": "Father",
@@ -76,7 +112,11 @@
         "position": "Senior Developer",
         "employee_id_code": "EMP-4A8772",
         "salary": "6000",
+<<<<<<< HEAD
         "profile_photo": "backend\/uploads\/photo_69ee294a68166.jpg",
+=======
+        "profile_photo": "http:\/\/localhost\/PHP-EmpProfile\/backend\/uploads\/photo_69ee294a68166.jpg",
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
         "emergency_name": "Lim Qi Qi",
         "emergency_phone": "+6016782363",
         "emergency_relation": "Mother",
@@ -97,7 +137,11 @@
         "position": "Financial Analyst",
         "employee_id_code": "EMP-DECEB4",
         "salary": "6000",
+<<<<<<< HEAD
         "profile_photo": "backend\/uploads\/photo_69ee2a23bbe1c.jpg",
+=======
+        "profile_photo": "http:\/\/localhost\/PHP-EmpProfile\/backend\/uploads\/photo_69ee2a23bbe1c.jpg",
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
         "emergency_name": "Tan Xin Ru",
         "emergency_phone": "+6534325435",
         "emergency_relation": "Mother",
@@ -118,12 +162,17 @@
         "position": "Senior Front End Developer",
         "employee_id_code": "EMP-88CFB6",
         "salary": "5000",
+<<<<<<< HEAD
         "profile_photo": "backend\/uploads\/photo_69ef300519abd.jpg",
+=======
+        "profile_photo": "http:\/\/localhost\/PHP-EmpProfile\/backend\/uploads\/photo_69ef300519abd.jpg",
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
         "emergency_name": "Joshua Chen",
         "emergency_phone": "+601678956",
         "emergency_relation": "Spouse",
         "id": "emp_69ef30488d23e8.70942774",
         "created_at": "2026-04-27 11:45:44"
+<<<<<<< HEAD
     },
     {
         "employee_name": "Johan Chen",
@@ -168,3 +217,7 @@
         "created_at": "2026-04-28 13:49:33"
     }
 ]
+=======
+    }
+]
+>>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
