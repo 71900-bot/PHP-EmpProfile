@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
 ## Created on 22th April 2026, Finalized on 27th April 2026 by Viola Voon Li Wei
 
 ## A lightweight, full-stack web application designed for HR departments to register, track, and analyze workforce distribution. This system provides a secure entry point for employee data and a high-level visual dashboard for administrative oversight.
@@ -58,9 +54,6 @@
 
 4. Data Storage: Validated records are stored in a structured JSON format.
 
-<<<<<<< HEAD
-=======
-=======
 ## Created on 22th April 2026, Finalized on 27th April 2026 by Viola Voon Li Wei
 
 ## A lightweight, full-stack web application designed for HR departments to register, track, and analyze workforce distribution. This system provides a secure entry point for employee data and a high-level visual dashboard for administrative oversight.
@@ -117,6 +110,4 @@
 
 4. Data Storage: Validated records are stored in a structured JSON format.
 
->>>>>>> b9e9aeb1218a64819766d95f2763876cd67e4ea9
->>>>>>> 51d803cb83619b0a4b800878845be1c74107b601
 5. Data Retrieval: The dashboard fetches and maps the JSON data into a clean, readable interface.
